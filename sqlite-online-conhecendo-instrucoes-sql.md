@@ -193,7 +193,7 @@ ORDER BY Nome_do_Produto;
 ## ✏️ Atualizações e Exclusões
 Atualizar status de pedidos:
 ```sql
-UPDATE tabelapedidos 
+UPDATE tabelapedidos
 SET Status = 'Enviado' 
 WHERE Status = 'Processando';
 ```
